@@ -14,4 +14,5 @@ end
 
 def assign_rooms(attendees)
   room_assign = []
+  attendees.each_with_index do |attendees, i|
 end
