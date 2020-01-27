@@ -14,7 +14,7 @@ end
 
 def assign_rooms(attendees)
   #room_assign = []
-  room_assign = attendees.map do |attendees|
+  room_assign = attendees.map do |attendees, i|
      "Hello, #{attendees}! You'll be assigned to room !"
     #room_assign.push(welcome_assign_room)
   end
