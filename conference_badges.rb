@@ -13,10 +13,10 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  #room_assign = [] #<-- used for .each  
+  #room_assign = [] #<-- used for .each
   return attendees.each_with_index.map do |attendees, i|
      "Hello, #{attendees}! You'll be assigned to room #{i + 1}!"
-    #room_assign.push(welcome_assign_room) #<-- old code with .each 
+    #room_assign.push(welcome_assign_room) #<-- old code with .each
   end
   #return room_assign
 end
