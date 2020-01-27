@@ -9,4 +9,5 @@ def batch_badge_creator(attendees)
     badge = "Hello, my name is #{attendees}."
     new_arr.push(badge)
   end
+  puts new_arr
 end
